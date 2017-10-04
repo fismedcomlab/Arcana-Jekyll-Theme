@@ -1,4 +1,10 @@
-name: Arcana
-description: Arcana template for Jekyll
+# name: Computacional
+# description: Website
 paginate: 10
 baseurl: '/Arcana-Jekyll-Theme'
+languages: ["en", "es"]
+exclude_from_localizations: [ "CNAME"]
+defaultLang: en
+languageNames:
+  es: Español
+  en: English

@@ -2,7 +2,28 @@
 title: Aracalacana
 layout: default
 ---
-			
+
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="{% t site.description %}"/>
+    <meta name="keywords" content="{% t site.keywords %}"/>
+    <title>{% t site.name %} - {% t site.tagline %}</title>
+</head>
+<body>
+    <section id="{% t main.welcomeSection.anchor%}">
+        <div>
+        	<h2>{% t site.name %}</h2>
+            <h2>{% t main.welcomeSection.heading %}</h2>
+            <p>{% t main.welcomeSection.p1 %}</p>
+        </div>
+    </section>
+</body>
+</html>
+
+
+<html lang="{{ site.lang }}">			
 <!-- Banner -->
 	<section id="banner">
 		<header>
@@ -10,7 +31,12 @@ layout: default
 			<a href="#" class="button">Learn More</a>
 		</header>
 	</section>
-
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="{% t site.description %}"/>
+    <meta name="keywords" content="{% t site.keywords %}"/>
+    <title>{% t site.name %} - {% t site.tagline %}</title>
+</head>
 <!-- Highlights -->
 	<section class="wrapper style1">
 		<div class="container">
