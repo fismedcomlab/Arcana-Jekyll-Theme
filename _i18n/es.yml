@@ -1,0 +1,11 @@
+site:
+  name: Laboratorio de Física Médica Computacional
+  tagline: Aplicaciones de imágenes médicas para el futuro
+  description: Sitio web del Laboratorio de Física Médica Computacional
+  keywords: medicina, website, radioterapia
+
+main:
+  welcomeSection:
+    anchor: bienvenido
+    heading: Bienvenido a nuestro sitio
+    p1: Software y aplicaciones de Física Médica Computacional
