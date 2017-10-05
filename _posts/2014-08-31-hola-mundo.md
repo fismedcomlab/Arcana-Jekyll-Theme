@@ -2,12 +2,13 @@
 layout: post
 featured: /assets/images/pic01.jpg
 layout: post
-title:  "Links Post"
+title:  "Enlaces Post"
 ref: links
 date:   2016-02-29 09:48:44 +0100
 categories: jekyll update
-lang: en
+lang: es
 ---
+
 
 <ul class="links">
 	<li><a href="#">Amet turpis, feugiat et sit amet</a></li>

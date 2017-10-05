@@ -1,10 +1,49 @@
 # name: Computacional
 # description: Website
-paginate: 10
+#paginate: 10
 baseurl: '/Arcana-Jekyll-Theme'
-languages: ["en", "es"]
-exclude_from_localizations: [ "CNAME"]
-defaultLang: en
-languageNames:
-  es: Español
-  en: English
+#languages: ["en", "es"]
+exclude_from_localizations: [ "assets","CNAME"]
+# defaultLang: en
+# languageNames:
+#   es: Español
+#   en: English
+
+
+
+# Site settings
+title:
+  en: Computational Medical Physics Lab
+  es: Laboratorio de Física Médica Computacional
+email: your-email@domain.com
+description:
+  en: Medical Imaging applications for the future
+  es: Aplicaciones de imágenes médicas para el futuro
+index:
+  en:
+  es: inicio.html
+
+
+# site:
+#   name: 
+#   tagline: Medical Imaging applications for the future
+#   description: Computational Medical Physics Website
+#   keywords: medicine, website, radiotherapy
+
+# main:
+#   welcomeSection:
+#     anchor: welcome
+#     heading: Welcome to our website.
+#     p1: Computational Medical Physics software and applications
+
+# site:
+#   name: 
+#   tagline: 
+#   description: Sitio web del Laboratorio de Física Médica Computacional
+#   keywords: medicina, website, radioterapia
+
+# main:
+#   welcomeSection:
+#     anchor: bienvenido
+#     heading: Bienvenido a nuestro sitio
+#     p1: Software y aplicaciones de Física Médica Computacional

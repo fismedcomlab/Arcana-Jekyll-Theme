@@ -2,12 +2,12 @@
 title: Sunt in culpa qui
 featured: /assets/images/pic02.jpg
 layout: post
-title:  "Test Post"
+title:  "Prueba Post"
 ref: test
 featured: /assets/images/pic03.jpg
 date:   2016-02-29 09:48:44 +0100
 categories: jekyll update
-lang: en
+lang: es
 ---
 
 <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>

@@ -4,10 +4,8 @@
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html lang="{{ site.lang }}">
 <html>
 	<head>
-		<title>{% t site.name %}</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -30,8 +28,15 @@
 			<div id="header">
 						
 				<!-- Logo -->
-					<h1><a href="{{ site.baseurl }}/index.html" id="logo">{% t site.name %}</em></a></h1>
-				
+					<h1><a href="{{ site.baseurl }}/{{ site.index[page.lang] }}" id="logo">{{ site.title[page.lang] }}</em></a></h1>
+ 				<!-- language switch -->
+<!-- 					<div style="text-align: right; line-height: 2em; padding: 0x">
+					  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+					  {% for post in posts %} <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a> {% endfor %}
+
+					  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+					  {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
+					</div> -->
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
@@ -61,6 +66,16 @@
 							<li {% if current[1] == 'right-sidebar.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/right-sidebar.html">Right Sidebar</a></li>
 							<li {% if current[1] == 'two-sidebar.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/two-sidebar.html">Two Sidebar</a></li>
 							<li {% if current[1] == 'no-sidebar.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/no-sidebar.html">No Sidebar</a></li>
+							
+					<!-- <div style="text-align: right; line-height: 1em; "> -->
+					  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+					  {% for post in posts %} <li style="float: right"><a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a> {% endfor %}
+					</li>
+					  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+					  {% for page in pages %}<li  style="float: right"> <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
+					<!-- </div>		 -->
+				</li>
+
 						</ul>
 					</nav>
 

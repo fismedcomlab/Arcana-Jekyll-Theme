@@ -1,6 +1,7 @@
 ---
 title: Blog
 layout: default
+lang: en
 ---
 
 <!-- Main -->
@@ -21,7 +22,7 @@ layout: default
 											<div class="box post">
 												<a href="#" class="image left"><img src="{{ site.baseurl }}{{ post.featured }}" alt=""></a>
 												<div class="inner">
-													<h3>{{ post.title }}</h3>
+													<h3>{{ post.title[page.lang] }}</h3>
 													{{ post.excerpt }}
 													<footer>
 														<a href="{{ site.baseurl }}{{ post.url }}" class="button">Continue Reading</a>
